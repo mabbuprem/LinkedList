@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿using System;
 
 namespace LinkedList
 {
@@ -10,9 +9,9 @@ namespace LinkedList
             Console.WriteLine("Data Structure");
             ManipulateList manipulateList = new ManipulateList();
             manipulateList.Insert(56);
-            manipulateList.Insert(70);
             manipulateList.Insert(30);
-            manipulateList.DeleteLast();
+            manipulateList.Insert(70);
+            manipulateList.search(30);
             manipulateList.Display();
 
         }
