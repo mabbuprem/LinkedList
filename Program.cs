@@ -1,4 +1,5 @@
-﻿using System;
+﻿// See https://aka.ms/new-console-template for more information
+using System;
 
 namespace LinkedList
 {
@@ -11,6 +12,7 @@ namespace LinkedList
             manipulateList.Insert(56);
             manipulateList.Insert(70);
             manipulateList.Insert(30);
+            manipulateList.DeleteFirst();
             manipulateList.Display();
 
         }
